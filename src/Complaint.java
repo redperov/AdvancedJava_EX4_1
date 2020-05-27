@@ -1,9 +1,18 @@
+/**
+ * Represents a customer's complaint.
+ */
 public class Complaint {
 
     private int id;
     private String name;
     private String message;
 
+    /**
+     * Constructor.
+     * @param id customer id
+     * @param name customer name
+     * @param message complaint message
+     */
     public Complaint(int id, String name, String message) {
         this.id = id;
         this.name = name;

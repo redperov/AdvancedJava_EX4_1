@@ -1,5 +1,8 @@
 import java.util.Iterator;
 
+/**
+ * Tests the custom priority queue against Complaints.
+ */
 public class TestComplaintsPriorityQueue {
 
     public static void test() {
@@ -31,6 +34,11 @@ public class TestComplaintsPriorityQueue {
         printWithIterator(priorityQueue);
     }
 
+    /**
+     * Prints the queue's content using an iterator.
+     * @param priorityQueue queue to iterate
+     * @param <T> queue's object type
+     */
     private static <T> void printWithIterator(MyPriorityQueue<T> priorityQueue) {
         for (Iterator<T> iterator = priorityQueue.iterator(); iterator.hasNext();) {
             System.out.println(iterator.next());

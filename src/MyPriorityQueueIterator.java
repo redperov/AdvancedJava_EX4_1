@@ -1,10 +1,18 @@
 import java.util.Iterator;
 
+/**
+ * Iterator to iterate over the priority queue.
+ * @param <T> priority queue object's type
+ */
 public class MyPriorityQueueIterator<T> implements Iterator<T> {
 
     private MyPriorityQueue<T> priorityQueue;
     private int counter;
 
+    /**
+     * Constructor
+     * @param priorityQueue queue to iterate
+     */
     public MyPriorityQueueIterator(MyPriorityQueue<T> priorityQueue) {
         this.priorityQueue = priorityQueue;
         this.counter = 0;

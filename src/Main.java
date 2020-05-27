@@ -4,6 +4,7 @@ public class Main {
         TestIntegerPriorityQueue.test();
 
         System.out.println();
+
         System.out.println("Complaints priority queue test:");
         TestComplaintsPriorityQueue.test();
     }
